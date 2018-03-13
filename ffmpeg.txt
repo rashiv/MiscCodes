@@ -1,0 +1,3 @@
+ffmpeg -i input.mkv -filter:v "setpts=2.0*PTS" output.mkv
+
+# SLOW DOWN VIDEO BY FACTOR OF 2
